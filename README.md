@@ -91,3 +91,25 @@ The ESP32-S3 also sends information to the OLED through I2C and controls the sta
 - Implement closed-loop speed control
 - Add buttons for motor direction control
 - Add wireless monitoring using ESP32 Wi-Fi/Bluetooth
+
+## Project Demonstration
+
+### Complete Hardware Setup
+
+![Complete Setup](images/01_complete_setup.jpg)
+
+### Motor OFF — 0%
+
+![Motor OFF](images/02_motor_off_0_percent.jpg)
+
+### Low Speed — 40% — Blue LED
+
+![Blue LED](images/03_blue_led_40_percent.jpg)
+
+### Medium Speed — 53% — Green LED
+
+![Green LED](images/04_green_led_53_percent.jpg)
+
+### High Speed — 100% — Red LED
+
+![Red LED](images/05_red_led_100_percent.jpg)
