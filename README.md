@@ -1,3 +1,16 @@
+## Results
+
+The system was successfully tested across different motor-speed ranges:
+
+| Speed Range | LED Indication | OLED Status |
+|---|---|---|
+| 0% | LEDs OFF | OFF |
+| 1–49% | Blue | LOW SPEED |
+| 50–89% | Green | MEDIUM |
+| 90–100% | Red | HIGH SPEED |
+
+The potentiometer controls the PWM duty cycle, while the OLED provides real-time visual feedback of the selected speed range.
+
 # ESP32-S3 Smart DC Motor Speed Controller
 
 A personal Embedded Systems project using an ESP32-S3 to control the speed of a DC geared motor using a potentiometer and PWM.
